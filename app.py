@@ -81,9 +81,7 @@ if st.button("Compare Sorting Algorithms"):
     st.success(f"Bubble Sort Time: {bubble_time:.6f} sec (O(n²))")
     st.success(f"Merge Sort Time: {merge_time:.6f} sec (O(n log n))")
 
-# -------------------------------
 # List vs Set Comparison
-# -------------------------------
 
 st.subheader(" List vs Set Membership Check")
 
