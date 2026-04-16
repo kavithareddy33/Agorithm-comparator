@@ -6,9 +6,7 @@ st.set_page_config(page_title="Algorithm Comparator", layout="centered")
 
 st.title("⚡ Algorithm & Data Structure Comparator")
 
-# -------------------------------
 # Helper Functions
-# -------------------------------
 
 def bubble_sort(arr):
     a = arr.copy()
@@ -45,9 +43,7 @@ def merge(left, right):
     result.extend(right[j:])
     return result
 
-# -------------------------------
 # Input Section
-# -------------------------------
 
 st.subheader(" Enter Numbers")
 
@@ -56,9 +52,7 @@ user_input = st.text_input("Enter numbers separated by space:", "5 3 8 2 1 5 3")
 if user_input:
     numbers = list(map(int, user_input.split()))
 
-# -------------------------------
 # Sorting Comparison
-# -------------------------------
 
 st.subheader("Sorting Comparison")
 
