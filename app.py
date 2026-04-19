@@ -4,7 +4,7 @@ import random
 
 st.set_page_config(page_title="Algorithm Comparator", layout="centered")
 
-st.title("⚡ Algorithm & Data Structure Comparator")
+st.title(" Algorithm & Data Structure Comparator")
 
 # Helper Functions
 
